@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinChartTutorial.MainPage">
+
+    <StackLayout>
+        <Button Text="BarChart"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="LineChart"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="AreaChart"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="ScatterChart"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_3"/>
+    </StackLayout>
+
+</ContentPage>
